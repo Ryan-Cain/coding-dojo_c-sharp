@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+    <h1>Here are some delicious foods!</h1>
+    <div>
+        @{
+            List<string> FoodList = new List<string>() {"apples", "cookies", "cucumber", "pretzels", "hotdogs"};
+            foreach(string food in FoodList)
+            {
+                
+                if (food[0] == 'c')
+                {
+                <p style="color: red;">@food</p>
+                }
+                else 
+                {
+                <p>@food</p>
+                }
+            }
+        }
+    </div>
+</body>
+</html>

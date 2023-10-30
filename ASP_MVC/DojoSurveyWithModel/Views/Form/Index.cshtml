@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Survey";
+}
+
+<form action="process" method="post">
+        <div class="d-flex">
+            <label for="Name">Your Name:</label>
+            <input name="Name">
+        </div>
+        <div class="d-flex">
+            <label for="Location">Dojo Location:</label>
+            <select name="Location" id="Location">
+                <option value="San Jose">San Jose</option>
+                <option value="San Fransisco">San Fransisco</option>
+            </select>
+        </div>
+        <div class="d-flex">
+            <label for="FavoriteLanguage">Favorite Language:</label>
+            <select name="FavoriteLanguage" id="FavoriteLanguage">
+                <option value="C#">C#</option>
+                <option value="Javascript">Javascript</option>
+                <option value="Python">Python</option>
+            </select>
+        </div>
+        <div class="flex-col">
+            <label for="Comment">Comment (Optional):</label>
+            <textarea name="Comment" id="Comment" cols="30" rows="5"></textarea>
+        </div>
+        <button>Submit</button>
+    </form>   

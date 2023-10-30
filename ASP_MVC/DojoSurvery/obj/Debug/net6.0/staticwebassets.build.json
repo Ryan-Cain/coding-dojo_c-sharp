@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "DTlFASP+jqNelCnltDQ5Jymp6pjmSGmwfAmZN5ceVCU=",
+  "Source": "PortfolioI",
+  "BasePath": "_content/PortfolioI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PortfolioI\\wwwroot",
+      "Source": "PortfolioI",
+      "ContentRoot": "C:\\Users\\RCain\\Desktop\\CodingDojo\\coding-dojo_c-sharp\\ASP_MVC\\DojoSurvery\\wwwroot\\",
+      "BasePath": "_content/PortfolioI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\RCain\\Desktop\\CodingDojo\\coding-dojo_c-sharp\\ASP_MVC\\DojoSurvery\\wwwroot\\css\\form_styles.css",
+      "SourceId": "PortfolioI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\RCain\\Desktop\\CodingDojo\\coding-dojo_c-sharp\\ASP_MVC\\DojoSurvery\\wwwroot\\",
+      "BasePath": "_content/PortfolioI",
+      "RelativePath": "css/form_styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\form_styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\RCain\\Desktop\\CodingDojo\\coding-dojo_c-sharp\\ASP_MVC\\DojoSurvery\\wwwroot\\css\\results_styles.css",
+      "SourceId": "PortfolioI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\RCain\\Desktop\\CodingDojo\\coding-dojo_c-sharp\\ASP_MVC\\DojoSurvery\\wwwroot\\",
+      "BasePath": "_content/PortfolioI",
+      "RelativePath": "css/results_styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\results_styles.css"
+    }
+  ]
+}

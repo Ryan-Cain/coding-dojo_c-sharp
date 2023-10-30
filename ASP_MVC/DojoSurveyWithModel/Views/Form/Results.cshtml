@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Results";
+}
+
+@model Survey
+<div class="main">
+        @{
+        <h1>Submitted Info</h1>
+        <div class="d-flex">
+            <span>Name:</span>
+            <span>@Model.Name</span>
+        </div>
+        <div class="d-flex">
+            <span>Dojo Location:</span>
+            <span>@Model.Location</span>
+        </div>
+        <div class="d-flex">
+            <span>Favorite Language:</span>
+            <span>@Model.FavoriteLanguage</span>
+        </div>
+        <div class="flex-col">
+            <span>Comment (Optional):</span>
+            @{
+                if (Model.Comment != null)
+                {
+                    <span>@Model.Comment</span>
+                }
+                else
+                {
+                    <span>No Comment</span>
+                }
+            }
+        </div>
+        }
+        <a href="/">
+            <button>Go Back</button>
+        </a>
+    </div> 
