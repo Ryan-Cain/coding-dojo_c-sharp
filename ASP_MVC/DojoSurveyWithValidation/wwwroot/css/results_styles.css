@@ -1,0 +1,41 @@
+body {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+.main {
+    border: 3px solid black;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.flex-col textarea {
+    margin-top: 15px;
+}
+
+.d-flex select,
+.d-flex input {
+    width: 50%;
+}
+a {
+    display: block;
+    align-self: flex-end;
+}
+button {
+    box-shadow: 5px solid black;
+    padding: 5px 10px;
+    margin-top: 10px;
+}

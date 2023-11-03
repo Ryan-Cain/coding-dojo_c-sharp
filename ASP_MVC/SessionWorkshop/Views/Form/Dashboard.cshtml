@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+
+<div class="dashboard">
+    <div class="flex-h">
+        <h1>Welcome @Context.Session.GetString("Name")!</h1>
+        <a href="logout">
+        <button>Log Out</button>
+        </a>
+    </div>
+    <div class="buttons">
+        <h1>@Context.Session.GetInt32("Number")</h1>
+        <div>
+            <a href="addOne" class="btn btn-1">
+                    + 1
+            </a>
+            <a href="subOne">
+                <button class="btn-2">
+                    - 1
+                </button>
+            </a>
+        </div>
+        <div>
+            <a href="timesTwo">
+                <button class="btn-3">
+                    x 2
+                </button>
+            </a>
+            <a href="plusRand">
+                <button class="btn-4">
+                    + Random
+                </button>
+            </a>
+        </div>
+    </div>
+
+</div>

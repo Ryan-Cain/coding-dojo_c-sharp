@@ -1,0 +1,35 @@
+.dashboard .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dashboard .buttons > * {
+    padding-bottom: 15px;
+}
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    box-shadow: 5px 5px black;
+}
+
+.dashboard .flex-h {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-1 {
+    background-color: rgb(255, 217, 102);
+}
+.btn-2 {
+    background-color: rgb(89, 126, 170);
+}
+.btn-3 {
+    background-color: rgb(224, 102, 102);
+}
+.btn-4 {
+    background-color: rgb(147, 196, 125);
+}
+
+a {
+    text-decoration: none;
+}
